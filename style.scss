@@ -239,7 +239,7 @@ body {
 
 /*контакты, карта*/
 
-.contacts__text {
+.cont__text {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
@@ -251,7 +251,7 @@ body {
     width: 100%;
 }
 
-.contacts__map {
+.cont__map {
     margin: 0;
 }
 
@@ -280,7 +280,7 @@ body {
 
     }
 
-    .contacts__text {
+    .cont__text {
         font-size: 16px;
     }
 
@@ -336,7 +336,7 @@ body {
         display: none;
     }
 
-    .contacts__text {
+    .cont__text {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;

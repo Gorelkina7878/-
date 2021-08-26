@@ -272,7 +272,7 @@ body {
 }
 
 /*контакты, карта*/
-.contacts__text {
+.cont__text {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
@@ -287,7 +287,7 @@ body {
   width: 100%;
 }
 
-.contacts__map {
+.cont__map {
   margin: 0;
 }
 
@@ -315,7 +315,7 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .contacts__text {
+  .cont__text {
     font-size: 16px;
   }
 }
@@ -359,7 +359,7 @@ body {
   .robot {
     display: none;
   }
-  .contacts__text {
+  .cont__text {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
