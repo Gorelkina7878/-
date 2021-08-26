@@ -291,7 +291,7 @@ body {
   margin: 0;
 }
 
-@media screen and (max-width: 1023px) and (min-width: 769px) {
+@media screen and (max-width: 1023px) and (min-width: 720px) {
   .block {
     -ms-grid-columns: 1fr 200px;
         grid-template-columns: 1fr 200px;
@@ -315,9 +315,12 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .contacts__text {
+    font-size: 16px;
+  }
 }
 
-@media screen and (max-width: 768px) and (min-width: 300px) {
+@media screen and (max-width: 719px) and (min-width: 300px) {
   .part__h1 {
     font-size: 1.5rem;
   }
