@@ -13,7 +13,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" />
 
-  <style></style>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -29,8 +32,10 @@
           <p>С заботой о Вас! Гарантия Качества!</p>
         </div>
         <div class="menu-contacs">
-          <a class="link menu-hover" href="tel:+79786205880"><i class="bi bi-telephone"></i> +7 978 620-58-80</a>
-          <a class="mail menu-hover" href="mailto:info@gkliks.ru"><i class="bi bi-envelope"></i> info@gkliks.ru</a>
+          <a class="link menu-hover" href="tel:+79786205880"><i class="bi bi-telephone"></i> +7 978
+            620-58-80</a>
+          <a class="mail menu-hover" href="mailto:info@gkliks.ru"><i class="bi bi-envelope"></i>
+            info@gkliks.ru</a>
         </div>
         <form action="page-2/index.html">
           <button class="menu-btn">Заказать звонок</button>
@@ -50,53 +55,220 @@
           <p>Химчистка с бесплатным выездом в течении 1 часа</p>
         </div>
       </section>
-      <!--Химчистка в цифрах, о компании, карта-->
-      <section class="part">
-        <h1 class="part__h1">Химчистка в цифрах</h1>
-        <div class="part__1">3 года</div>
-        <div class="part__2">50+</div>
-        <div class="part__3">500 м²</div>
-        <div class="part__4">опыт работы</div>
-        <div class="part__5">постоянных клиентов</div>
-        <div class="part__6">очищаем ежедневно</div>
-      </section>
-      <!--о компании-->
-      <h2 class="h2">О компании</h2>
-      <section class="block">
-        <p class="block__text">
-          Наша компания оказывает комплекс услуг по улучшению внешнего вида и качества окружающего вас имущества.
-          <b>Наши клиенты</b> - это как частные лица, так и крупные компании, имеющие на своем балансе не одно
-          предприятие, которых мы освобождаем от рутинных забот, связанных с обслуживанием их зданий и помещений.
-          Мы постоянно <b>стремимся к улучшению</b> уровня оказываемых нами услуг и сервиса, чем очень гордимся.
-        </p>
-        <p class="block__img"><img class="robot" src="assets/robot-cut.jpg" alt="robot" /></p>
 
-      </section>
-      <section class="cont">
-        <div class="cont__text">
-          <h3>Контакты</h3>
-          <p>переулок Зуйский 28 <br> г. Симферополь</p>
-          <p> +7 (978) 620-58-80</p>
-          <p> Звоните ежедневно<br>
-            с 09:00 до 18:00</p>
-        </div>
-        <div class="cont__map">
-          <div style="position:relative;overflow:hidden;"><a
-              href="https://yandex.ru/maps/146/simferopol/?utm_medium=mapframe&utm_source=maps"
-              style="color:#eee;font-size:12px;position:absolute;top:0px;">Симферополь</a>
-            <a href="https://yandex.ru/maps/146/simferopol/house/zuyskiy_pereulok_28/Z00YdwRjSEAGQFpufXV2cX9gZQ==/?ll=34.134404%2C44.970266&utm_medium=mapframe&utm_source=maps&z=16.49"
-              style="color:#eee;font-size:12px;position:absolute;top:14px;">Зуйский переулок, 28 —
-              Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUmMTRJTB" width="100%" height="300"
-              frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+      <!--Price-->
+      <div class="price">
+        <h1>Цены на химчистку в Симферополе</h1>
+        <div class="price-bg">300px</div>
+        <div class="container">
+          <div class="card-deck">
+            <div class="card">
+              <h5>Химчистка в детских комнатах</h5>
+              <img src="/img_price/childrensroom.jpg" class="card-img-top" alt="детская комната">
+              <div class="card-body text-center">
+                <p class="card-text">80 руб.м2</p>
+                <a href="http://127.0.0.1:5501/page-2/index.html?" class="btn btn-info">Оставить
+                  заявку</a>
+              </div>
+            </div>
+            <div class="card">
+              <h5>Химчистка кожанных диванов</h5>
+              <img src="/img_price/leathersofa.jpg" class="card-img-top" alt="кожанный диван">
+              <div class="card-body text-center">
+                <p class="card-text">1 посадочное место - от 700 руб.</p>
+                <a href="http://127.0.0.1:5501/page-2/index.html?" class="btn btn-info">Оставить
+                  заявку</a>
+              </div>
+            </div>
+            <div class="card">
+              <h5>Химчистка тканевых диванов</h5>
+              <img src="/img_price/fabricsofa.jpg" class="card-img-top" alt="тканевый диван">
+              <div class="card-body text-center">
+                <p class="card-text">1 посадочное место - 500 руб.</p>
+                <a href="http://127.0.0.1:5501/page-2/index.html?" class="btn btn-info">Оставить
+                  заявку</a>
+              </div>
+            </div>
+            <div class="card">
+              <h5>Химчистка кожанных кресел</h5>
+              <img src="/img_price/leatherarmchair.jpg" class="card-img-top" alt="кожанное кресло">
+              <div class="card-body text-center">
+                <p class="card-text">1 кресло от 1000 руб.</p>
+                <a href="http://127.0.0.1:5501/page-2/index.html?" class="btn btn-info">Оставить
+                  заявку</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="container">
+            <div class="card-deck">
+              <div class="card">
+                <h5>Химчистка тканевых кресел</h5>
+                <img src="/img_price/fabricchairs.jpg" class="card-img-top" alt="тканевое кресло">
+                <div class="card-body text-center">
+                  <p class="card-text">1 кресло от 800 руб.</p>
+                  <a href="http://127.0.0.1:5501/page-2/index.html?" class="btn btn-info">Оставить
+                    заявку</a>
+                </div>
+              </div>
+              <div class="card">
+                <h5>Химчистка стульев с обивкой</h5>
+                <img src="/img_price/chair.jpg" class="card-img-top" alt="стул">
+                <div class="card-body text-center">
+                  <p class="card-text">1 стул - от 250 руб/шт</p>
+                  <a href="http://127.0.0.1:5501/page-2/index.html?" class="btn btn-info">Оставить
+                    заявку</a>
+                </div>
+              </div>
+              <div class="card">
+                <h5>Химчистка ковров</h5>
+                <img src="/img_price/carpet.jpg" class="card-img-top" alt="ковер">
+                <div class="card-body text-center">
+                  <p class="card-text">от 100 руб/м2</p>
+                  <a href="http://127.0.0.1:5501/page-2/index.html?" class="btn btn-info">Оставить
+                    заявку</a>
+                </div>
+              </div>
+              <div class="card">
+                <h5>Химчистка ковралина</h5>
+                <img src="/img_price/carpeting.jpg" class="card-img-top" alt="ковралин">
+                <div class="card-body text-center">
+                  <p class="card-text">от 80 руб/м2</p>
+                  <a href="http://127.0.0.1:5501/page-2/index.html?" class="btn btn-info">Оставить
+                    заявку</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="card-deck">
+                <div class="card">
+                  <h5>Химчистка подушек</h5>
+                  <img src="/img_price/pillow.jpg" class="card-img-top" alt="подушка">
+                  <div class="card-body text-center">
+                    <p class="card-text">1 штука - от 150 руб</p>
+                    <a href="http://127.0.0.1:5501/page-2/index.html?" class="btn btn-info">Оставить
+                      заявку</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <h5>Химчистка матрасов</h5>
+                  <img src="/img_price/mattress.jpg" class="card-img-top" alt="матрас">
+                  <div class="card-body text-center">
+                    <p class="card-text">1,5 спал. - 1500 руб/шт;</p>
+                    <p class="card-text">2 спал. - 2000 руб/шт;</p>
+                    <a href="http://127.0.0.1:5501/page-2/index.html?" class="btn btn-info">Оставить
+                      заявку</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <h5>Химчистка кинотеатров</h5>
+                  <img src="/img_price/cinema.jpg" class="card-img-top" alt="кинотеатр">
+                  <div class="card-body text-center">
+                    <p class="card-text">1 кресло от 300 руб.</p>
+                    <a href="http://127.0.0.1:5501/page-2/index.html?" class="btn btn-info">Оставить
+                      заявку</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <h5>Химчистка бильярдных</h5>
+                  <img src="/img_price/billiard.jpg" class="card-img-top" alt="бильярд">
+                  <div class="card-body text-center">
+                    <p class="card-text">Индивидуальный подход (в зависимости от размера)</p>
+                    <a href="http://127.0.0.1:5501/page-2/index.html?" class="btn btn-info">Оставить
+                      заявку</a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="container">
+                <div class="card-deck">
+                  <div class="card">
+                    <h5>Химчистка конференц-залов</h5>
+                    <img src="/img_price/conference.png" class="card-img-top" alt="конференц-зал">
+                    <div class="card-body text-center">
+                      <p class="card-text">1 штука - от 150 руб</p>
+                      <a href="http://127.0.0.1:5501/page-2/index.html?"
+                        class="btn btn-info">Оставить заявку</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <h5>Стирка штор</h5>
+                    <img src="/img_price/curtains.jpg" class="card-img-top" alt="шторы">
+                    <div class="card-body text-center">
+                      <p class="card-text">1,5 спал. - 1500 руб/шт;</p>
+                      <p class="card-text">2 спал. - 2000 руб/шт;</p>
+                      <a href="http://127.0.0.1:5501/page-2/index.html?"
+                        class="btn btn-info">Оставить заявку</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <h5>Стирка ковров</h5>
+                    <img src="/img_price/carpet washing.jpg" class="card-img-top"
+                      alt="стирка ковров">
+                    <div class="card-body text-center">
+                      <p class="card-text">1 кресло от 300 руб.</p>
+                      <a href="http://127.0.0.1:5501/page-2/index.html?"
+                        class="btn btn-info">Оставить заявку</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
 
-      </section>
+      
+           <!--Химчистка в цифрах, о компании, карта-->
+           <section class="part">
+            <h1 class="part__h1">Химчистка в цифрах</h1>
+            <div class="part__1">3 года</div>
+            <div class="part__2">50+</div>
+            <div class="part__3">500 м²</div>
+            <div class="part__4">опыт работы</div>
+            <div class="part__5">постоянных клиентов</div>
+            <div class="part__6">очищаем ежедневно</div>
+          </section>
+          <!--о компании-->
+          <h2 class="h2">О компании</h2>
+          <section class="block">
+            <p class="block__text">
+              Наша компания оказывает комплекс услуг по улучшению внешнего вида и качества окружающего вас имущества.
+              <b>Наши клиенты</b> - это как частные лица, так и крупные компании, имеющие на своем балансе не одно
+              предприятие, которых мы освобождаем от рутинных забот, связанных с обслуживанием их зданий и помещений.
+              Мы постоянно <b>стремимся к улучшению</b> уровня оказываемых нами услуг и сервиса, чем очень гордимся.
+            </p>
+            <p class="block__img"><img class="robot" src="assets/robot-cut.jpg" alt="robot" /></p>
+    
+          </section>
+          <!-- контакты + карта -->
+          <section class="cont">
+            <div class="cont__text">
+              <h3>Контакты</h3>
+              <p>переулок Зуйский 28 <br> г. Симферополь</p>
+              <p> +7 (978) 620-58-80</p>
+              <p> Звоните ежедневно<br>
+                с 09:00 до 18:00</p>
+            </div>
+            <div class="cont__map">
+              <div style="position:relative;overflow:hidden;"><a
+                  href="https://yandex.ru/maps/146/simferopol/?utm_medium=mapframe&utm_source=maps"
+                  style="color:#eee;font-size:12px;position:absolute;top:0px;">Симферополь</a>
+                <a href="https://yandex.ru/maps/146/simferopol/house/zuyskiy_pereulok_28/Z00YdwRjSEAGQFpufXV2cX9gZQ==/?ll=34.134404%2C44.970266&utm_medium=mapframe&utm_source=maps&z=16.49"
+                  style="color:#eee;font-size:12px;position:absolute;top:14px;">Зуйский переулок, 28 —
+                  Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUmMTRJTB" width="100%" height="300"
+                  frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+              </div>
+            </div>
+    
+          </section>
+
+
     </main>
 
-
-
-    <!--Footer-->
     <footer class="footer">
       <div class="footer-top">
         <div class="logo">
