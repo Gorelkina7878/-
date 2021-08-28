@@ -693,18 +693,17 @@ h5 {
     line-height: 24px;
     text-align: center;
 }
-
 .card-img-top {
     margin: 20px auto 0;
     max-width: 80%;
     height: auto;
     display: block;
 }
-
 .price {
     margin: 0 auto;
 }
 .btn{
     background-color:$dark-turquoise;
     color:$white;
+    text-align: justify;
 }
