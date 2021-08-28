@@ -645,9 +645,8 @@ body {
 
     .banner-text h2,
     .banner-text p {
-        font-size: 3.5vw;
+        font-size: 3.5vw;}
     }
-}
 
 /*Nadya*/
 
@@ -679,4 +678,8 @@ h5 {
 
 .price {
     margin: 0 auto;
+    }
+.btn {
+    background-color:$dark-turquoise;
+color:$white;
 }
