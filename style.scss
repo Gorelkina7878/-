@@ -237,6 +237,235 @@ body {
 
 }
 
+.wrapper {
+    box-sizing: border-box;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* carousel */
+
+.carousel {
+    padding-top: 30px
+}
+
+.carousel .owl-nav button:focus {
+    outline: none;
+}
+
+.carousel .owl-nav button.owl-prev {
+    background: #d8d8d8;
+    border-radius: 100%;
+    position: absolute;
+    top: calc(50% - 30px);
+    left: 15%;
+    height: 60px;
+    width: 60px;
+    font-size: 37px;
+    font-weight: 800;
+    color: $white;
+}
+
+.carousel .owl-nav button.owl-next {
+    background: #d8d8d8;
+    border-radius: 100%;
+    position: absolute;
+    top: calc(50% - 30px);
+    right: 15%;
+    height: 60px;
+    width: 60px;
+    font-size: 37px;
+    font-weight: 800;
+    color: $white;
+}
+
+.carousel .owl-nav button:hover {
+    box-shadow: $light_grey 0 5px 10px;
+}
+
+.carousel__title {
+    margin-bottom: 30px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.carousel__item {
+    cursor: pointer;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.carousel__item:hover img {
+    box-shadow: #787878 0 5px 10px;
+}
+
+
+.carousel__item img {
+    height: 500px;
+}
+
+.carousel__button-download {
+    cursor: pointer;
+    border: 0;
+    box-sizing: border-box;
+    box-shadow: $light_grey 0 5px 10px;
+    border-radius: 6px;
+    background-color: $light-yellow;
+    color: $black;
+    font-size: 17px;
+    white-space: nowrap;
+    text-align: center;
+    outline: none;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    opacity: 1;
+    max-width: 100%;
+    padding: 20px 40px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.carousel__button-download:hover {
+    background-color: #fadd8c;
+}
+
+@media screen and (max-width: 1024px) {
+    .carousel .owl-nav button.owl-prev {
+        left: 10px;
+        height: 40px;
+        width: 40px;
+        font-size: 25px;
+    }
+
+    .carousel .owl-nav button.owl-next {
+        right: 10px;
+        height: 40px;
+        width: 40px;
+        font-size: 25px;
+    }
+
+    .carousel__title {
+        font-size: 35px;
+    }
+
+    .carousel__button-download {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .carousel .owl-nav button.owl-prev {
+        left: -12px;
+    }
+
+    .carousel .owl-nav button.owl-next {
+        right: -12px;
+    }
+
+    .carousel__item {
+        max-width: 100%;
+    }
+
+    .carousel__item img {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .carousel__item img {
+        height: auto;
+        min-height: 350px;
+    }
+}
+
+/* faq */
+.faq {
+    box-sizing: border-box;
+    padding: 30px 20px 20px;
+}
+
+.faq__h2 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.faq__items {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.faq__title {
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid $bright-blue;
+    height: 90px;
+    padding: 0 24px 0 45px;
+    color: $dark-turquoise;
+    font-size: 19px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+}
+
+.faq__title:hover {
+    border: 1px solid $dark-turquoise;
+}
+
+.faq__title:after {
+    content: "\25BC";
+    margin: 0 0 0 30px;
+    color: $dark-turquoise;
+    font-weight: normal;
+    transition: 0.2s;
+}
+
+.faq__title.active:after {
+    transform: rotate(180deg);
+}
+
+.faq__text {
+    margin: 12px 24px;
+    max-height: 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: italic;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.faq__title.active~.faq__text {
+    max-height: 300px;
+    opacity: 1;
+}
+
+.faq__title:hover~.faq__text {
+    transition: 0.2s;
+}
+
+@media screen and (max-width: 1024px) {
+    .faq__h2 {
+        font-size: 35px;
+    }
+
+    .faq__title {
+        font-size: 17px;
+    }
+
+    .faq__text {
+        font-size: 13px;
+    }
+}
+
 /*контакты, карта*/
 
 .cont__text {
@@ -418,4 +647,36 @@ body {
     .banner-text p {
         font-size: 3.5vw;
     }
+}
+
+/*Nadya*/
+
+.price-bg {
+    background: url(img_price/fon.jpg);
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    background: linear-gradient(to right, #e3e3e3 0%, #f5f5f5 100%);
+    margin: 3%;
+}
+
+h5 {
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.card-img-top {
+    margin: 20px auto 0;
+    max-width: 80%;
+    height: auto;
+    display: block;
+}
+
+.price {
+    margin: 0 auto;
 }
