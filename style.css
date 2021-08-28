@@ -7,6 +7,32 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 30px 0;
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  margin-top: 15px;
+}
+
 .wrapper {
   min-height: 100%;
   display: -webkit-box;
@@ -16,6 +42,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /*Header*/
@@ -47,7 +78,6 @@ body {
 
 .menu-text {
   text-align: center;
-  height: 6vh;
   width: 200px;
   padding-top: 1%;
   background-color: #d4f1ff;
@@ -88,19 +118,19 @@ body {
 .menu-btn {
   width: 170px;
   height: 50px;
-  background-color: #faee81;
+  background-color: #FAEE81;
   border: none;
   border-radius: 6px;
   font-size: 16px;
   margin: 20px 5px;
-  -webkit-box-shadow: 0 1px 0 #8b8a8a;
-          box-shadow: 0 1px 0 #8b8a8a;
+  -webkit-box-shadow: 0 1px 0 #8B8A8A;
+          box-shadow: 0 1px 0 #8B8A8A;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
 }
 
 .menu-btn:hover {
-  background-color: #19a4c4;
+  background-color: #19A4C4;
   -webkit-box-shadow: 0 4px 2px;
           box-shadow: 0 4px 2px;
 }
@@ -134,7 +164,9 @@ body {
 
 .banner-text h2 {
   font-size: 32px;
+  font-weight: 600;
   line-height: 1.5em;
+  margin: 0;
 }
 
 .banner-text p {
@@ -269,14 +301,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.wrapper {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 /* carousel */
@@ -494,7 +518,7 @@ body {
 }
 
 .faq__title.active ~ .faq__text {
-  max-height: 300px;
+  max-height: 600px;
   opacity: 1;
 }
 
@@ -645,7 +669,7 @@ body {
 }
 
 .footer-hover:hover {
-  color: white;
+  color: #fafafa;
 }
 
 .footer-down {
@@ -653,7 +677,7 @@ body {
   min-height: 60px;
   text-align: center;
   padding-top: 1%;
-  background-color: #19a4c4;
+  background-color: #19A4C4;
 }
 
 @media all and (max-width: 800px) {

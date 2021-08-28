@@ -20,10 +20,40 @@ body {
     font-family: $font-stack;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 30px 0;
+    font-family: $font-stack;
+}
+
+p {
+    margin-top: 15px;
+}
+
 .wrapper {
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 /*Header*/
@@ -49,10 +79,9 @@ body {
 
 .menu-text {
     text-align: center;
-    height: 6vh;
     width: 200px;
     padding-top: 1%;
-    background-color: rgb(212, 241, 255);
+    background-color: $transparent-blue;
     border-radius: 6px;
     font-size: 20px;
 }
@@ -67,14 +96,14 @@ body {
     height: 30px;
     margin: 15px, 5px;
     text-decoration: none;
-    color: #181818;
+    color: $black;
     text-align: center;
     font-weight: 600;
     font-size: 24px;
 }
 
 .menu-hover:hover {
-    color: rgb(144, 219, 247);
+    color: $bright-blue;
 }
 
 .mail {
@@ -82,7 +111,7 @@ body {
     width: 250px;
     height: 40px;
     margin: 20px, 5px;
-    color: #181818;
+    color: $black;
     text-align: center;
     font-size: 18px;
 }
@@ -90,17 +119,17 @@ body {
 .menu-btn {
     width: 170px;
     height: 50px;
-    background-color: #faee81;
+    background-color: $light-yellow;
     border: none;
     border-radius: 6px;
     font-size: 16px;
     margin: 20px 5px;
-    box-shadow: 0 1px 0 #8b8a8a;
+    box-shadow: 0 1px 0 $light_grey;
     transition-duration: 1s;
 }
 
 .menu-btn:hover {
-    background-color: #19a4c4;
+    background-color: $dark-turquoise;
     box-shadow: 0 4px 2px;
 }
 
@@ -131,7 +160,9 @@ body {
 
 .banner-text h2 {
     font-size: 32px;
+    font-weight: 600;
     line-height: 1.5em;
+    margin: 0;
 }
 
 .banner-text p {
@@ -235,13 +266,6 @@ body {
     mix-blend-mode: multiply;
     justify-content: center;
 
-}
-
-.wrapper {
-    box-sizing: border-box;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 /* carousel */
@@ -444,7 +468,7 @@ body {
 }
 
 .faq__title.active~.faq__text {
-    max-height: 300px;
+    max-height: 600px;
     opacity: 1;
 }
 
@@ -582,7 +606,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(144, 219, 247);
+    background-color: $bright-blue;
     min-height: 15vh;
 }
 
@@ -598,7 +622,7 @@ body {
 }
 
 .footer-hover:hover {
-    color: white;
+    color: $white;
 }
 
 .footer-down {
@@ -606,7 +630,7 @@ body {
     min-height: 60px;
     text-align: center;
     padding-top: 1%;
-    background-color: #19a4c4;
+    background-color: $dark-turquoise;
 }
 
 @media all and (max-width: 800px) {
