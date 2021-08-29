@@ -684,8 +684,9 @@ h1 {
 }
 
 .card {
-    background: linear-gradient(to right, #e3e3e3 0%, #f5f5f5 100%);
-    margin: 3%;
+    background: linear-gradient(to right, rgb(212, 241,255) 0%, #fffff5 100%);
+    border: 5px;
+    margin-top: 3%;
 }
 
 h5 {
@@ -699,11 +700,11 @@ h5 {
     height: auto;
     display: block;
 }
-.price {
-    margin: 0 auto;
-}
+
 .btn{
     background-color:$dark-turquoise;
     color:$white;
     text-align: justify;
-}
+    position: relative;
+  margin-top: 10%;
+  }
