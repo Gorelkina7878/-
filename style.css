@@ -118,13 +118,13 @@ p {
 .menu-btn {
   width: 170px;
   height: 50px;
-  background-color: #faee81;
+  background-color: #FAEE81;
   border: none;
   border-radius: 6px;
   font-size: 16px;
   margin: 20px 5px;
-  -webkit-box-shadow: 0 1px 0 #8b8a8a;
-          box-shadow: 0 1px 0 #8b8a8a;
+  -webkit-box-shadow: 0 1px 0 #8B8A8A;
+          box-shadow: 0 1px 0 #8B8A8A;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
 }
@@ -164,7 +164,9 @@ p {
 
 .banner-text h2 {
   font-size: 32px;
+  font-weight: 600;
   line-height: 1.5em;
+  margin: 0;
 }
 
 .banner-text p {
@@ -469,7 +471,7 @@ p {
   border: 1px solid #90dbf7;
   height: 90px;
   padding: 0 24px 0 45px;
-  color: #19A4C4;
+  color: #19a4c4;
   font-size: 19px;
   font-weight: 600;
   display: -webkit-box;
@@ -488,13 +490,13 @@ p {
 }
 
 .faq__title:hover {
-  border: 1px solid #19A4C4;
+  border: 1px solid #19a4c4;
 }
 
 .faq__title:after {
   content: "\25BC";
   margin: 0 0 0 30px;
-  color: #19A4C4;
+  color: #19a4c4;
   font-weight: normal;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -516,7 +518,7 @@ p {
 }
 
 .faq__title.active ~ .faq__text {
-  max-height: 300px;
+  max-height: 600px;
   opacity: 1;
 }
 
@@ -667,7 +669,7 @@ p {
 }
 
 .footer-hover:hover {
-  color: white;
+  color: #fafafa;
 }
 
 .footer-down {
@@ -747,5 +749,11 @@ h5 {
 
 .price {
   margin: 0 auto;
+}
+
+.btn {
+  background-color: #19a4c4;
+  color: #fafafa;
+  text-align: justify;
 }
 /*# sourceMappingURL=style.css.map */

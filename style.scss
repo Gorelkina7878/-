@@ -2,7 +2,7 @@ $transparent-blue: rgb(212, 241, 255);
 
 $bright-blue: rgb(144, 219, 247);
 
-$dark-turquoise:#19A4C4;
+$dark-turquoise:#19a4c4;
 $white: rgb(250, 250, 250);
 
 $light-yellow:#FAEE81;
@@ -81,7 +81,7 @@ p {
     text-align: center;
     width: 200px;
     padding-top: 1%;
-    background-color: rgb(212, 241, 255);
+    background-color: $transparent-blue;
     border-radius: 6px;
     font-size: 20px;
 }
@@ -96,14 +96,14 @@ p {
     height: 30px;
     margin: 15px, 5px;
     text-decoration: none;
-    color: #181818;
+    color: $black;
     text-align: center;
     font-weight: 600;
     font-size: 24px;
 }
 
 .menu-hover:hover {
-    color: rgb(144, 219, 247);
+    color: $bright-blue;
 }
 
 .mail {
@@ -111,7 +111,7 @@ p {
     width: 250px;
     height: 40px;
     margin: 20px, 5px;
-    color: #181818;
+    color: $black;
     text-align: center;
     font-size: 18px;
 }
@@ -119,17 +119,17 @@ p {
 .menu-btn {
     width: 170px;
     height: 50px;
-    background-color: #faee81;
+    background-color: $light-yellow;
     border: none;
     border-radius: 6px;
     font-size: 16px;
     margin: 20px 5px;
-    box-shadow: 0 1px 0 #8b8a8a;
+    box-shadow: 0 1px 0 $light_grey;
     transition-duration: 1s;
 }
 
 .menu-btn:hover {
-    background-color: #19a4c4;
+    background-color: $dark-turquoise;
     box-shadow: 0 4px 2px;
 }
 
@@ -160,7 +160,9 @@ p {
 
 .banner-text h2 {
     font-size: 32px;
+    font-weight: 600;
     line-height: 1.5em;
+    margin: 0;
 }
 
 .banner-text p {
@@ -466,7 +468,7 @@ p {
 }
 
 .faq__title.active~.faq__text {
-    max-height: 300px;
+    max-height: 600px;
     opacity: 1;
 }
 
@@ -604,7 +606,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(144, 219, 247);
+    background-color: $bright-blue;
     min-height: 15vh;
 }
 
@@ -620,7 +622,7 @@ p {
 }
 
 .footer-hover:hover {
-    color: white;
+    color: $white;
 }
 
 .footer-down {
@@ -628,7 +630,7 @@ p {
     min-height: 60px;
     text-align: center;
     padding-top: 1%;
-    background-color: #19a4c4;
+    background-color: $dark-turquoise;
 }
 
 @media all and (max-width: 800px) {
@@ -691,14 +693,17 @@ h5 {
     line-height: 24px;
     text-align: center;
 }
-
 .card-img-top {
     margin: 20px auto 0;
     max-width: 80%;
     height: auto;
     display: block;
 }
-
 .price {
     margin: 0 auto;
+}
+.btn{
+    background-color:$dark-turquoise;
+    color:$white;
+    text-align: justify;
 }
