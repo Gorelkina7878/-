@@ -675,7 +675,6 @@ p {
 }
 
 /*Nadya*/
-
 .price-bg {
     background: url(img_price/fon.jpg);
 }
@@ -686,7 +685,8 @@ h1 {
 
 .card {
     background: linear-gradient(to right, rgb(212, 241, 255) 0%, #fffff5 100%);
-    
+    border: 5px;
+    margin-top: 3%;
 }
 
 h5 {
@@ -707,4 +707,6 @@ h5 {
     background-color:$dark-turquoise;
     color:$white;
     text-align: justify;
+    position: relative;
+  margin-top: 10%;
 }
