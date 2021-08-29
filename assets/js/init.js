@@ -23,4 +23,19 @@ $(document).ready(function(){
    $('.faq__title').on('click', function(){
       $(this).toggleClass('active');
    });
+
+   //форма
+   $(function(){
+      $( "#feedback-popup").dialog({
+        autoOpen: false
+      });
+      
+      $('.feedback-btn').on('click', function(e){
+         e.preventDefault();
+         $('#feedback-popup').dialog({
+            width: 400
+         });
+         $('#feedback-popup').dialog('open');
+      });
+   });
 });

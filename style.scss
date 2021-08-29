@@ -46,6 +46,18 @@ p {
     margin-top: 15px;
 }
 
+button:focus {
+    outline: none;
+}
+
+label {
+    display: block;
+}
+
+label:focus {
+    outline: none;
+}
+
 .wrapper {
     min-height: 100%;
     display: flex;
@@ -54,6 +66,58 @@ p {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+/*Form*/
+
+#feedback-popup {
+    display: none;
+    border-radius: 10px;
+    box-shadow: $light_grey 0 5px 10px;
+    background: $white;
+    width: 100%;
+    padding: 20px;
+    font-size: 14px;
+    color: $black;
+}
+
+#feedback-popup .heading {
+    text-align: center;
+    font-size: 24px;
+    color: $black;
+    margin-bottom: 5%;
+}
+
+#feedback-popup .input {
+    width: 100%;
+    min-height: 50px;
+    margin: 2% 0;
+    padding-left: 5px;
+    font-size: 14px;
+    color: $black;
+    background-color: $transparent-blue;
+    border: none;
+    border-radius: 6px;
+}
+
+#feedback-popup .checkbox {
+    margin-bottom: 10%;
+}
+
+#feedback-popup .data {
+    text-decoration: none;
+    color: rgb(37, 162, 235);
+}
+
+#feedback-popup .btn {
+    width: 100%;
+    min-height: 50px;
+    background-color: $bright-blue;
+    font-size: 16px;
+    color: $white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 6px;
 }
 
 /*Header*/
@@ -65,7 +129,7 @@ p {
 .menu {
     display: flex;
     justify-content: space-between;
-    align-items:baseline;
+    align-items: baseline;
     max-width: 1100px;
     min-height: 150px;
     margin: auto;
@@ -75,7 +139,7 @@ p {
     width: 100px;
     object-fit: cover;
     mix-blend-mode: multiply;
-    transform: scale(-1,1);
+    transform: scale(-1, 1);
 }
 
 .menu-text {
@@ -694,21 +758,24 @@ h5 {
     line-height: 24px;
     text-align: center;
 }
+
 .card-img-top {
     margin: 20px auto 0;
     max-width: 80%;
     height: auto;
     display: block;
 }
+
 .price {
     margin: 0 auto;
 }
-.btn{
-    background-color:$dark-turquoise;
-    color:$white;
+
+.btn {
+    background-color: $dark-turquoise;
+    color: $white;
     text-align: justify;
     position: relative;
-  margin-top: 10%;
-  width: 80%;
+    margin-top: 10%;
+    width: 80%;
     text-align: center;
 }

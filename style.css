@@ -33,6 +33,18 @@ p {
   margin-top: 15px;
 }
 
+button:focus {
+  outline: none;
+}
+
+label {
+  display: block;
+}
+
+label:focus {
+  outline: none;
+}
+
 .wrapper {
   min-height: 100%;
   display: -webkit-box;
@@ -47,6 +59,58 @@ p {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+/*Form*/
+#feedback-popup {
+  display: none;
+  border-radius: 10px;
+  -webkit-box-shadow: #8B8A8A 0 5px 10px;
+          box-shadow: #8B8A8A 0 5px 10px;
+  background: #fafafa;
+  width: 100%;
+  padding: 20px;
+  font-size: 14px;
+  color: #181818;
+}
+
+#feedback-popup .heading {
+  text-align: center;
+  font-size: 24px;
+  color: #181818;
+  margin-bottom: 5%;
+}
+
+#feedback-popup .input {
+  width: 100%;
+  min-height: 50px;
+  margin: 2% 0;
+  padding-left: 5px;
+  font-size: 14px;
+  color: #181818;
+  background-color: #d4f1ff;
+  border: none;
+  border-radius: 6px;
+}
+
+#feedback-popup .checkbox {
+  margin-bottom: 10%;
+}
+
+#feedback-popup .data {
+  text-decoration: none;
+  color: #25a2eb;
+}
+
+#feedback-popup .btn {
+  width: 100%;
+  min-height: 50px;
+  background-color: #90dbf7;
+  font-size: 16px;
+  color: #fafafa;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 6px;
 }
 
 /*Header*/

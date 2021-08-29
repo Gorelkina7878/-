@@ -1,229 +1,234 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Химчистка Семфирополь</title>
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon-16x16.png"
-    />
-    <link rel="stylesheet" href="normalize.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/js/owl-carousel/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/js/owl-carousel/owl.theme.default.min.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/js/owl-carousel/owl.theme.green.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <div class="wrapper">
-      <!--Header-->
-      <header class="header">
-        <div class="menu">
-          <div class="logo">
-            <img src="assets/robot-cut.jpg" alt="logo" />
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Химчистка Семфирополь</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" type="text/css" href="assets/js/owl-carousel/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/js/owl-carousel/owl.theme.default.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/js/owl-carousel/owl.theme.green.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-          <div class="menu-text">
-            <p>С заботой о Вас! Гарантия Качества!</p>
-          </div>
-          <div class="menu-contacs">
-            <a class="link menu-hover" href="tel:+79786205880"
-              ><i class="bi bi-telephone"></i> +7 978 620-58-80</a
-            >
-            <a class="mail menu-hover" href="mailto:info@gkliks.ru"
-              ><i class="bi bi-envelope"></i> info@gkliks.ru</a
-            >
-          </div>
-          <form action="page-2/index.html">
-            <button class="menu-btn">Заказать звонок</button>
-          </form>
+<body>
+  <div class="wrapper">
+    <!--Header-->
+    <header class="header">
+      <div class="menu">
+        <div class="logo">
+          <img src="assets/robot-cut.jpg" alt="logo" />
         </div>
-      </header>
 
-      <!--Main-->
-      <main class="main">
-        <!--Banner-->
-        <section class="banner">
-          <img class="banner-img" src="assets/banner-2.jpg" alt="banner" />
-          <div class="banner-text">
-            <h2>
-              Профессиональная химчистка мебели и др. предметов в Симферополе
-            </h2>
-            <p>Химчистка с бесплатным выездом в течении 1 часа</p>
+        <div class="menu-text">
+          <p>С заботой о Вас! Гарантия Качества!</p>
+        </div>
+        <div class="menu-contacs">
+          <a class="link menu-hover" href="tel:+79786205880"><i class="bi bi-telephone"></i> +7 978 620-58-80</a>
+          <a class="mail menu-hover" href="mailto:info@gkliks.ru"><i class="bi bi-envelope"></i> info@gkliks.ru</a>
+        </div>
+
+        <button class="menu-btn  feedback-btn">Заказать звонок</button>
+
+        <!--Feedback-popup-->
+        <div class="form" id="feedback-popup">
+          <div class="heading">
+            <h1>Оставьте Ваши контакты</h1>
+            <p>Ваш звонок очень важен для нас</p>
           </div>
-        </section>
 
-        <!--Price-->
-        <div class="price">
-          <div class="price-bg">
-            <h1>Цены на химчистку в Симферополе</h1>
+          <div class="name">
+            <label for="name">
+              <input class="input" type="text" name="name" id="name" placeholder="Имя" />
+            </label>
           </div>
-          <div div class="container">
 
-            <div class="row">
-              <div class="card col-12 col-md-6 col-lg-3">
-                <h5>Химчистка в детских комнатах</h5>
-                <img src="img_price/childrensroom.jpg" class="card-img-top" alt="детская комната">
-                <div class="card-body text-center">
-                  <a class="card-text"><br>80 руб.м2</br></a>
-                  <a href="page-2/index.html" class="btn btn-info">Оставить заявку</a>
-                </div>
+          <div class="phone">
+            <label for="phone">
+              <input class="input" type="tel" name="phone" id="phone" placeholder="Номер телефона*" required />
+            </label>
+          </div>
+
+          <div class="email">
+            <label for="email">
+              <input class="input" type="email" name="email" id="email" placeholder="E-mail" />
+            </label>
+          </div>
+
+          <div class="checkbox">
+            <label for="checkbox">
+              <input type="checkbox" name="checkbox" id="checkbox" checked required />
+              Даю своё согласие на законную обработку персональных данных.
+              <a class="data" href="">Правила обработки</a>
+            </label>
+          </div>
+
+          <div class="button">
+            <button class="btn" type="submit">Отправить</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Main-->
+    <main class="main">
+      <!--Banner-->
+      <section class="banner">
+        <img class="banner-img" src="assets/banner-2.jpg" alt="banner" />
+        <div class="banner-text">
+          <h2>
+            Профессиональная химчистка мебели и др. предметов в Симферополе
+          </h2>
+          <p>Химчистка с бесплатным выездом в течении 1 часа</p>
+        </div>
+      </section>
+
+      <!--Price-->
+      <div class="price">
+        <div class="price-bg">
+          <h1>Цены на химчистку в Симферополе</h1>
+        </div>
+        <div div class="container">
+
+          <div class="row">
+            <div class="card col-12 col-md-6 col-lg-3">
+              <h5>Химчистка в детских комнатах</h5>
+              <img src="img_price/childrensroom.jpg" class="card-img-top" alt="детская комната">
+              <div class="card-body text-center">
+                <a class="card-text"><br>80 руб.м2</br></a>
+                <a href="page-2/index.html" class="btn feedback-btn btn-info">Оставить заявку</a>
               </div>
-              <div class="card col-12 col-md-6 col-lg-3">
-                <h5>Химчистка кожанных диванов</h5>
-                <img src="img_price/leathersofa.jpg" class="card-img-top" alt="кожанный диван">
-                <div class="card-body text-center">
-                  <a class="card-text">1 посадочное место<br>от 700 руб.</br></a>
-                  <a href="page-2/index.html" class="btn btn-info">Оставить заявку</a>
-                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+              <h5>Химчистка кожанных диванов</h5>
+              <img src="img_price/leathersofa.jpg" class="card-img-top" alt="кожанный диван">
+              <div class="card-body text-center">
+                <a class="card-text">1 посадочное место<br>от 700 руб.</br></a>
+                <a href="page-2/index.html" class="btn feedback-btn btn-info">Оставить заявку</a>
               </div>
-              <div class="card col-12 col-md-6 col-lg-3">
-                <h5>Химчистка тканевых диванов</h5>
-                <img src="img_price/fabricsofa.jpg" class="card-img-top" alt="тканевый диван">
-                <div class="card-body text-center">
-                  <a class="card-text">1 посадочное место<br>от 500 руб.</br></a>
-                  <a href="page-2/index.html" class="btn btn-info">Оставить
-                    заявку</a>
-                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+              <h5>Химчистка тканевых диванов</h5>
+              <img src="img_price/fabricsofa.jpg" class="card-img-top" alt="тканевый диван">
+              <div class="card-body text-center">
+                <a class="card-text">1 посадочное место<br>от 500 руб.</br></a>
+                <a href="page-2/index.html" class="btn feedback-btn btn-info">Оставить
+                  заявку</a>
               </div>
-              <div class="card col-12 col-md-6 col-lg-3">
-                <h5>Химчистка кожанных кресел</h5>
-                <img src="img_price/leatherarmchair.jpg" class="card-img-top" alt="кожанное кресло">
-                <div class="card-body text-center">
-                  <a class="card-text"><br>1 кресло от 1000 руб.</br></a>
-                  <a href="page-2/index.html" class="btn btn-info">Оставить
-                    заявку</a>
-                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+              <h5>Химчистка кожанных кресел</h5>
+              <img src="img_price/leatherarmchair.jpg" class="card-img-top" alt="кожанное кресло">
+              <div class="card-body text-center">
+                <a class="card-text"><br>1 кресло от 1000 руб.</br></a>
+                <a href="page-2/index.html" class="btn feedback-btn btn-info">Оставить
+                  заявку</a>
               </div>
-              <div class="card col-12 col-md-6 col-lg-3">
-                <h5>Химчистка тканевых кресел</h5>
-                <img src="img_price/fabricchairs.jpg" class="card-img-top" alt="тканевое кресло">
-                <div class="card-body text-center">
-                  <a class="card-text">1 кресло от 800 руб.</a>
-                  <a href="page-2/index.html" class="btn btn-info">Оставить заявку</a>
-                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+              <h5>Химчистка тканевых кресел</h5>
+              <img src="img_price/fabricchairs.jpg" class="card-img-top" alt="тканевое кресло">
+              <div class="card-body text-center">
+                <a class="card-text">1 кресло от 800 руб.</a>
+                <a href="page-2/index.html" class="btn feedback-btn btn-info">Оставить заявку</a>
               </div>
-              <div class="card col-12 col-md-6 col-lg-3">
-                <h5>Химчистка стульев</h5>
-                <img src="img_price/chair.jpg" class="card-img-top" alt="стул">
-                <div class="card-body text-center">
-                  <a class="card-text"><br>1 стул - от 250 руб/шт</br></a>
-                  <a href="page-2/index.html" class="btn btn-info">Оставить
-                    заявку</a>
-                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+              <h5>Химчистка стульев</h5>
+              <img src="img_price/chair.jpg" class="card-img-top" alt="стул">
+              <div class="card-body text-center">
+                <a class="card-text"><br>1 стул - от 250 руб/шт</br></a>
+                <a href="page-2/index.html" class="btn feedback-btn btn-info">Оставить
+                  заявку</a>
               </div>
-              <div class="card col-12 col-md-6 col-lg-3">
-                <h5>Химчистка ковров</h5>
-                <img src="img_price/carpet.jpg" class="card-img-top" alt="ковер">
-                <div class="card-body text-center">
-                  <a class="card-text"><br>от 100 руб/м2</br></a>
-                  <a href="page-2/index.html" class="btn btn-info">Оставить
-                    заявку</a>
-                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+              <h5>Химчистка ковров</h5>
+              <img src="img_price/carpet.jpg" class="card-img-top" alt="ковер">
+              <div class="card-body text-center">
+                <a class="card-text"><br>от 100 руб/м2</br></a>
+                <a href="page-2/index.html" class="btn feedback-btn btn-info">Оставить
+                  заявку</a>
               </div>
-              <div class="card col-12 col-md-6 col-lg-3">
-                <h5>Химчистка ковролина</h5>
-                <img src="img_price/carpeting.jpg" class="card-img-top" alt="ковралин">
-                <div class="card-body text-center">
-                  <a class="card-text"><br>от 80 руб/м2</br></a>
-                  <a href="page-2/index.html" class="btn btn-info">Оставить
-                    заявку</a>
-                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+              <h5>Химчистка ковролина</h5>
+              <img src="img_price/carpeting.jpg" class="card-img-top" alt="ковралин">
+              <div class="card-body text-center">
+                <a class="card-text"><br>от 80 руб/м2</br></a>
+                <a href="page-2/index.html" class="btn feedback-btn btn-info">Оставить
+                  заявку</a>
               </div>
-              <div class="card col-12 col-md-6 col-lg-3">
-                <h5>Химчистка подушек</h5>
-                <img src="img_price/pillow.jpg" class="card-img-top" alt="подушка">
-                <div class="card-body text-center">
-                  <a class="card-text"><br>1 штука - от 150 руб</br></a>
-                  <a href="page-2/index.html" class="btn btn-info">Оставить заявку</a>
-                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+              <h5>Химчистка подушек</h5>
+              <img src="img_price/pillow.jpg" class="card-img-top" alt="подушка">
+              <div class="card-body text-center">
+                <a class="card-text"><br>1 штука - от 150 руб</br></a>
+                <a href="page-2/index.html" class="btn feedback-btn btn-info">Оставить заявку</a>
               </div>
-              <div class="card col-12 col-md-6 col-lg-3">
-                <h5>Химчистка матрасов</h5>
-                <img src="img_price/mattress.jpg" class="card-img-top" alt="матрас">
-                <div class="card-body text-center">
-                  <a class="card-text">1,5 спал. - 1500 руб/шт;<br>2 спал. - 2000 руб/шт;</br></a>
-                  <a href="page-2/index.html" class="btn btn-info">Оставить заявку</a>
-                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+              <h5>Химчистка матрасов</h5>
+              <img src="img_price/mattress.jpg" class="card-img-top" alt="матрас">
+              <div class="card-body text-center">
+                <a class="card-text">1,5 спал. - 1500 руб/шт;<br>2 спал. - 2000 руб/шт;</br></a>
+                <a href="page-2/index.html" class="btn feedback-btn btn-info">Оставить заявку</a>
               </div>
-              <div class="card col-12 col-md-6 col-lg-3">
-                <h5>Химчистка кинотеатров</h5>
-                <img src="img_price/cinema.jpg" class="card-img-top" alt="кинотеатр">
-                <div class="card-body text-center">
-                  <a class="card-text"><br>1 кресло от 300 руб.</br></a>
-                  <a href="page-2/index.html" class="btn btn-info">Оставить
-                    заявку</a>
-                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+              <h5>Химчистка кинотеатров</h5>
+              <img src="img_price/cinema.jpg" class="card-img-top" alt="кинотеатр">
+              <div class="card-body text-center">
+                <a class="card-text"><br>1 кресло от 300 руб.</br></a>
+                <a href="page-2/index.html" class="btn feedback-btn btn-info">Оставить
+                  заявку</a>
               </div>
-              <div class="card col-12 col-md-6 col-lg-3">
-                <h5>Химчистка бильярдных</h5>
-                <img src="img_price/billiard.jpg" class="card-img-top" alt="бильярд">
-                <div class="card-body text-center">
-                  <a class="card-text"><br>по согласованию</br></a>
-                  <a href="page-2/index.html" class="btn btn-info">Оставить
-                    заявку</a>
-                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+              <h5>Химчистка бильярдных</h5>
+              <img src="img_price/billiard.jpg" class="card-img-top" alt="бильярд">
+              <div class="card-body text-center">
+                <a class="card-text"><br>по согласованию</br></a>
+                <a href="page-2/index.html" class="btn feedback-btn btn-info">Оставить
+                  заявку</a>
               </div>
-              <div class="card col-12 col-md-6 col-lg-3">
-                <h5>Химчистка конференц-залов</h5>
-                <img src="img_price/conference.png" class="card-img-top" alt="конференц-зал">
-                <div class="card-body text-center">
-                  <a class="card-text">по согласованию</a>
-                  <a href="page-2/index.html" class="btn btn-info">Оставить заявку</a>
-                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+              <h5>Химчистка конференц-залов</h5>
+              <img src="img_price/conference.png" class="card-img-top" alt="конференц-зал">
+              <div class="card-body text-center">
+                <a class="card-text">по согласованию</a>
+                <a href="page-2/index.html" class="btn feedback-btn btn-info">Оставить заявку</a>
               </div>
-              <div class="card col-12 col-md-6 col-lg-3">
-                <h5>Стирка штор</h5>
-                <img src="img_price/curtains.jpg" class="card-img-top" alt="шторы">
-                <div class="card-body text-center">
-                  <a class="card-text"><br>по согласованию</br></a>
-                  <a href="page-2/index.html" class="btn btn-info">Оставить заявку</a>
-                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+              <h5>Стирка штор</h5>
+              <img src="img_price/curtains.jpg" class="card-img-top" alt="шторы">
+              <div class="card-body text-center">
+                <a class="card-text"><br>по согласованию</br></a>
+                <a href="page-2/index.html" class="btn feedback-btn btn-info">Оставить заявку</a>
               </div>
-              <div class="card col-12 col-md-6 col-lg-3">
-                <h5>Стирка ковров</h5>
-                <img src="img_price/carpet washing.jpg" class="card-img-top" alt="стирка ковров">
-                <div class="card-body text-center">
-                  <a class="card-text"><br>от 250 руб.м2</br></a>
-                  <a href="page-2/index.html" class="btn btn-info">Оставить заявку</a>
-                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+              <h5>Стирка ковров</h5>
+              <img src="img_price/carpet washing.jpg" class="card-img-top" alt="стирка ковров">
+              <div class="card-body text-center">
+                <a class="card-text"><br>от 250 руб.м2</br></a>
+                <a href="page-2/index.html" class="btn feedback-btn btn-info">Оставить заявку</a>
               </div>
             </div>
           </div>
+        </div>
         <!--Химчистка в цифрах, о компании, карта-->
         <section class="part">
           <h1 class="part__h1">Химчистка в цифрах</h1>
@@ -259,302 +264,154 @@
             <div class="owl-carousel carousel__row">
               <div class="carousel__item">
                 <a href="assets/slider/example-1.jpeg" data-fancybox="examples">
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-1.jpeg"
-                  />
+                  <img alt="Пример наших работ" src="assets/slider/example-1.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
                 <a href="assets/slider/example-2.jpeg" data-fancybox="examples">
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-2.jpeg"
-                  />
+                  <img alt="Пример наших работ" src="assets/slider/example-2.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
                 <a href="assets/slider/example-3.jpeg" data-fancybox="examples">
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-3.jpeg"
-                  />
+                  <img alt="Пример наших работ" src="assets/slider/example-3.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
                 <a href="assets/slider/example-4.jpeg" data-fancybox="examples">
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-4.jpeg"
-                  />
+                  <img alt="Пример наших работ" src="assets/slider/example-4.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
                 <a href="assets/slider/example-5.jpeg" data-fancybox="examples">
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-5.jpeg"
-                  />
+                  <img alt="Пример наших работ" src="assets/slider/example-5.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
                 <a href="assets/slider/example-6.jpeg" data-fancybox="examples">
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-6.jpeg"
-                  />
+                  <img alt="Пример наших работ" src="assets/slider/example-6.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
                 <a href="assets/slider/example-7.jpeg" data-fancybox="examples">
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-7.jpeg"
-                  />
+                  <img alt="Пример наших работ" src="assets/slider/example-7.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
                 <a href="assets/slider/example-8.jpeg" data-fancybox="examples">
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-8.jpeg"
-                  />
+                  <img alt="Пример наших работ" src="assets/slider/example-8.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
                 <a href="assets/slider/example-9.jpeg" data-fancybox="examples">
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-9.jpeg"
-                  />
+                  <img alt="Пример наших работ" src="assets/slider/example-9.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-10.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-10.jpeg"
-                  />
+                <a href="assets/slider/example-10.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-10.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-11.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-11.jpeg"
-                  />
+                <a href="assets/slider/example-11.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-11.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-12.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-12.jpeg"
-                  />
+                <a href="assets/slider/example-12.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-12.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-13.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-13.jpeg"
-                  />
+                <a href="assets/slider/example-13.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-13.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-14.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-14.jpeg"
-                  />
+                <a href="assets/slider/example-14.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-14.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-15.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-15.jpeg"
-                  />
+                <a href="assets/slider/example-15.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-15.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-16.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-16.jpeg"
-                  />
+                <a href="assets/slider/example-16.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-16.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-17.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-17.jpeg"
-                  />
+                <a href="assets/slider/example-17.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-17.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-18.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-18.jpeg"
-                  />
+                <a href="assets/slider/example-18.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-18.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-19.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-19.jpeg"
-                  />
+                <a href="assets/slider/example-19.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-19.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-20.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-20.jpeg"
-                  />
+                <a href="assets/slider/example-20.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-20.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-21.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-21.jpeg"
-                  />
+                <a href="assets/slider/example-21.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-21.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-22.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-22.jpeg"
-                  />
+                <a href="assets/slider/example-22.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-22.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-23.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-23.jpeg"
-                  />
+                <a href="assets/slider/example-23.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-23.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-24.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-24.jpeg"
-                  />
+                <a href="assets/slider/example-24.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-24.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-25.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-25.jpeg"
-                  />
+                <a href="assets/slider/example-25.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-25.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-26.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-26.jpeg"
-                  />
+                <a href="assets/slider/example-26.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-26.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-27.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-27.jpeg"
-                  />
+                <a href="assets/slider/example-27.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-27.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-28.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-28.jpeg"
-                  />
+                <a href="assets/slider/example-28.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-28.jpeg" />
                 </a>
               </div>
               <div class="carousel__item">
-                <a
-                  href="assets/slider/example-29.jpeg"
-                  data-fancybox="examples"
-                >
-                  <img
-                    alt="Пример наших работ"
-                    src="assets/slider/example-29.jpeg"
-                  />
+                <a href="assets/slider/example-29.jpeg" data-fancybox="examples">
+                  <img alt="Пример наших работ" src="assets/slider/example-29.jpeg" />
                 </a>
               </div>
             </div>
 
-            <form action="page-2/index.html">
-              <button data-action="/page-2" class="carousel__button-download">
-                Отправить заявку
-              </button>
+            <button class="feedback-btn carousel__button-download">
+              Отправить заявку
+            </button>
             </form>
           </div>
         </section>
@@ -608,15 +465,20 @@
                 <div class="faq__title">Чем обусловлены цены?</div>
                 <div class="faq__text">
                   Стоимость нашего продукта, как и любого другого зависит от
-                  составляющих элементов: 1. Экспертность персонала, в
-                  результате непрерывного обучения и периодических повышений
-                  классификации на протяжении более 3 года. 2. Точно подобранная
-                  клининговая косметика премиум класса, которая не только
-                  эффективно удалит загрязнения в короткие сроки, но и
-                  принадлежит к разряду Зеленой химии, а значит безопасна для
-                  нас с вами, наших детей и домашних питомцев. 3.
-                  Узкоспециализированное оборудование и инвентарь Швейцарского и
-                  Итальянского производства.
+                  составляющих элементов:
+
+                  <ol>
+                    <li>Экспертность персонала, в
+                      результате непрерывного обучения и периодических повышений
+                      классификации на протяжении более 3 года.</li>
+                    <li>Точно подобранная
+                      клининговая косметика премиум класса, которая не только
+                      эффективно удалит загрязнения в короткие сроки, но и
+                      принадлежит к разряду Зеленой химии, а значит безопасна для
+                      нас с вами, наших детей и домашних питомцев. </li>
+                    <li>Узкоспециализированное оборудование и инвентарь Швейцарского и
+                      Итальянского производства.</li>
+                  </ol>
                 </div>
               </div>
               <div class="faq__item">
@@ -655,72 +517,55 @@
           </div>
           <div class="cont__map">
             <div style="position: relative; overflow: hidden">
-              <a
-                href="https://yandex.ru/maps/146/simferopol/?utm_medium=mapframe&utm_source=maps"
-                style="
+              <a href="https://yandex.ru/maps/146/simferopol/?utm_medium=mapframe&utm_source=maps" style="
                   color: #eee;
                   font-size: 12px;
                   position: absolute;
                   top: 0px;
-                "
-                >Симферополь</a
-              >
-              <a
-                href="https://yandex.ru/maps/146/simferopol/house/zuyskiy_pereulok_28/Z00YdwRjSEAGQFpufXV2cX9gZQ==/?ll=34.134404%2C44.970266&utm_medium=mapframe&utm_source=maps&z=16.49"
+                ">Симферополь</a>
+              <a href="https://yandex.ru/maps/146/simferopol/house/zuyskiy_pereulok_28/Z00YdwRjSEAGQFpufXV2cX9gZQ==/?ll=34.134404%2C44.970266&utm_medium=mapframe&utm_source=maps&z=16.49"
                 style="
                   color: #eee;
                   font-size: 12px;
                   position: absolute;
                   top: 14px;
-                "
-                >Зуйский переулок, 28 — Яндекс.Карты</a
-              ><iframe
-                src="https://yandex.ru/map-widget/v1/-/CCUmMTRJTB"
-                width="100%"
-                height="300"
-                frameborder="1"
-                allowfullscreen="true"
-                style="position: relative"
-              ></iframe>
+                ">Зуйский переулок, 28 — Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUmMTRJTB"
+                width="100%" height="300" frameborder="1" allowfullscreen="true" style="position: relative"></iframe>
             </div>
           </div>
         </section>
-      </main>
+    </main>
 
-      <footer class="footer">
-        <div class="footer-top">
-          <div class="logo">
-            <img class="footer-logo" src="assets/robot-cut.jpg" alt="logo" />
-          </div>
-          <div class="daten">
-            <a class="daten-link footer-hover" href=""
-              >Обработка персональных данных</a
-            >
-          </div>
-          <div class="contacts">
-            <a class="link footer-hover" href="tel:+79786205880"
-              ><i class="bi bi-telephone"></i> +7 978 620-58-80</a
-            >
-            <a class="mail footer-hover" href="mailto:info@gkliks.ru"
-              ><i class="bi bi-envelope"></i> info@gkliks.ru</a
-            >
-          </div>
-          <form action="page-2/index.html">
-            <button class="menu-btn">Заказать звонок</button>
-          </form>
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="logo">
+          <img class="footer-logo" src="assets/robot-cut.jpg" alt="logo" />
         </div>
-        <div class="footer-down">
-          <p>&copy Химчистка Симферополь</p>
+        <div class="daten">
+          <a class="daten-link footer-hover" href="">Обработка персональных данных</a>
         </div>
-      </footer>
-    </div>
+        <div class="contacts">
+          <a class="link footer-hover" href="tel:+79786205880"><i class="bi bi-telephone"></i> +7 978 620-58-80</a>
+          <a class="mail footer-hover" href="mailto:info@gkliks.ru"><i class="bi bi-envelope"></i> info@gkliks.ru</a>
+        </div>
+        <form action="page-2/index.html">
+          <button class="menu-btn feedback-btn">Заказать звонок</button>
+        </form>
+      </div>
+      <div class="footer-down">
+        <p>&copy Химчистка Симферополь</p>
+      </div>
+    </footer>
+  </div>
 
-    <!-- Скрипты -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="assets/js/owl-carousel/owl.carousel.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <script src="assets/js/init.js"></script>
-  </body>
+  <!-- Скрипты -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script src="assets/js/owl-carousel/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="assets/js/init.js"></script>
+</body>
+
 </html>
