@@ -545,14 +545,21 @@ p {
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
+  -ms-grid-rows: 90px;
+      grid-template-rows: 90px;
   background-color: #d4f1ff;
   text-align: center;
   vertical-align: middle;
   font-size: 18px;
   font-family: "Rubik", sans-serif;
   width: 100%;
+}
+
+.cont__text_p {
+  font-size: 30px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .cont__map {

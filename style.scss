@@ -495,13 +495,18 @@ p {
 .cont__text {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-rows: 90px;
     background-color: $transparent-blue;
     text-align: center;
     vertical-align: middle;
     font-size: 18px;
     font-family: $font-stack;
     width: 100%;
+}
+
+.cont__text_p {
+    font-size: 30px;
+    align-self: center;
 }
 
 .cont__map {
@@ -693,17 +698,20 @@ h5 {
     line-height: 24px;
     text-align: center;
 }
+
 .card-img-top {
     margin: 20px auto 0;
     max-width: 80%;
     height: auto;
     display: block;
 }
+
 .price {
     margin: 0 auto;
 }
-.btn{
-    background-color:$dark-turquoise;
-    color:$white;
+
+.btn {
+    background-color: $dark-turquoise;
+    color: $white;
     text-align: justify;
 }
