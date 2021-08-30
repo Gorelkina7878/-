@@ -46,6 +46,10 @@ p {
     margin-top: 15px;
 }
 
+button:focus {
+    outline: none;
+}
+
 .wrapper {
     min-height: 100%;
     display: flex;
@@ -65,7 +69,7 @@ p {
 .menu {
     display: flex;
     justify-content: space-between;
-    align-items:baseline;
+    align-items: baseline;
     max-width: 1100px;
     min-height: 150px;
     margin: auto;
@@ -75,7 +79,7 @@ p {
     width: 100px;
     object-fit: cover;
     mix-blend-mode: multiply;
-    transform: scale(-1,1);
+    transform: scale(-1, 1);
 }
 
 .menu-text {
@@ -694,21 +698,24 @@ h5 {
     line-height: 24px;
     text-align: center;
 }
+
 .card-img-top {
     margin: 20px auto 0;
     max-width: 80%;
     height: auto;
     display: block;
 }
+
 .price {
     margin: 0 auto;
 }
-.btn{
-    background-color:$dark-turquoise;
-    color:$white;
+
+.btn {
+    background-color: $dark-turquoise;
+    color: $white;
     text-align: justify;
     position: relative;
-  margin-top: 10%;
-  width: 80%;
+    margin-top: 10%;
+    width: 80%;
     text-align: center;
 }
